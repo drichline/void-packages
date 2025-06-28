@@ -1,0 +1,12 @@
+pkgname=llama-cpp
+version=5760
+revision=1
+build_style=cmake
+makedepends="libcurl-devel"
+short_desc="Port of Facebook's LLaMA model in C/C++"
+maintainer="Dakota Richline <drichline@protonmail.com>"
+license="MIT"
+homepage=https://github.com/ggml-org/llama.cpp
+distfiles="https://github.com/ggml-org/llama.cpp/archive/refs/tags/b${version}.tar.gz"
+https://github.com/ggml-org/llama.cpp/archive/refs/tags/b5760.zip
+checksum=b8ff5a66967244b1a8af0367c7b13972267423c488284ae17a6475cc32190f05
